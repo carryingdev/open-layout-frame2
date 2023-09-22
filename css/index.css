@@ -1,0 +1,101 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #1C1C1C;
+  position: relative;
+}
+
+.wrapper {
+  max-width: 1352px;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "custos";
+  font-style: normal;
+  src: url("Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+body {
+  font-family: "custos", sans-serif;
+  color: white;
+}
+
+.orange-btn {
+  background: linear-gradient(84.12deg, #A36429 5.62%, #E6BC86 99.5%);
+  outline: none;
+  border: none;
+  font-weight: 600;
+  color: white;
+  border-radius: 89px;
+  padding: 5px 10px;
+}
+
+.transparent-btn {
+  box-shadow: 0px 0px 51px 0px rgba(0, 0, 0, 0.1019607843);
+  background: transparent;
+  padding: 13px 16px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid #E6BC86;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/*# sourceMappingURL=index.css.map */
